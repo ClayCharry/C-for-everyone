@@ -14,7 +14,7 @@ int main(void)
     printf("Enter the number you wish to get the sine of: ");
     scanf("%lf", &number);
 
-    sine = (number * (1/2.0) * (1/2.0)) / 2.0;
+    sine = (number * (1/2.0) * (1/2.0)) / 2.0; // This is a way to find the sine of a number without using trigonometricla exp.
 
     printf("The sine of the number %lf is: %lf", number, sine);
 
