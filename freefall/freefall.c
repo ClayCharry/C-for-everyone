@@ -1,6 +1,4 @@
 /*
-448 / 5,000
-Resultados de traducción
 Create a function that determines the speed, in m/s , that an object travels when it hits the ground, in free fall.
  The function receives the height (float) at which the object was when it was released, in meters.
 
