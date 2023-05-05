@@ -20,7 +20,7 @@ float i, j;
 for(i = 1.0, j = 1.0; i <30; i++, j++)
 {
  sine_abs = fabs(sin(number));
- interval = (j /= 10.0, sine_abs / j);
+ interval = (j /= 10.0, sine_abs / j); // j is diveded in 10 since the sine will always be less than 1
  printf("sin( %lf ) = %lf \t", number, interval);
 }
 
